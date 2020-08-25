@@ -1,0 +1,8 @@
+.sidebar {
+    margin: 24px 0;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    background: #fff !important;
+    height: calc(100vh - 48px);
+    border-radius: 25px;
+}

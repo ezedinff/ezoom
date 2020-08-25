@@ -1,10 +1,47 @@
+.header{
+  padding: 8px 0;
+  padding-bottom: 0;
+}
+.button-container{
+  text-align: left !important;
+  display: flex;
+  justify-items: flex-end;
+  justify-content: end;
+  align-items: flex-end;
+  align-self: flex-end;
+  
+}
+
+
+.video-container{
+  height: calc(100vh - 164px);
+  min-height: calc(100vh - 164px);
+  background: #fff;
+  border-radius: 25px;
+}
 .icon-button{
     background: #fff !important;
-    padding: 5px 0px !important;
     border: none !important;
-    max-width: 48px;
-    width: 48;
+    min-width: 48px !important;
+    color: #0B0B13 !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    float: left !important;
   }
+
+  .end-button{
+    background: #0B0B13 !important;
+    text-transform: capitalize !important;
+    color: #fff !important;
+    border: none !important;
+    min-width: 164px !important;
+    height: 48px !important;
+    border-radius: 10px !important;
+  }
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 0 !important;
+  margin: 0 6px !important;
+}
 .icon-button > .MuiButton-label {
     width: 24px !important;
     padding: 0px !important;

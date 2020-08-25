@@ -1,0 +1,9 @@
+.footer-container{
+    padding: 16px;
+    text-align: center;
+}
+.footer-container > .MuiIconButton-root{
+    background: #fff !important;
+    color: #0B0B13;
+    margin: 0 8px;
+}

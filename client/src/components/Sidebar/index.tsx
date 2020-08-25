@@ -1,7 +1,10 @@
 import React from 'react';
+import './index.css';
 const Sidebar: React.FC = () => {
     return (
-        <div>Sidebar!</div>
+        <div className={"sidebar"}>
+
+        </div>
     );
 }
 export default Sidebar;

@@ -1,0 +1,13 @@
+.icon-button{
+    background: #fff !important;
+    padding: 5px 0px !important;
+    border: none !important;
+    max-width: 48px;
+    width: 48;
+  }
+.icon-button > .MuiButton-label {
+    width: 24px !important;
+    padding: 0px !important;
+    margin: 0px;
+}
+  

@@ -18,6 +18,7 @@
   min-height: calc(100vh - 164px);
   background: #fff;
   border-radius: 25px;
+  overflow: hidden;
 }
 .icon-button{
     background: #fff !important;

@@ -6,7 +6,7 @@ const VideoContainer: React.FC<{video: boolean; audio: boolean}> = ({video, audi
   const containerRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     //@ts-ignore
-    playerRef.current.play();
+  //  playerRef.current.play();
     contextMenu();
     let interval;
     if (video || audio) {

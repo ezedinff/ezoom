@@ -4,5 +4,9 @@
     margin-bottom: 48px;
     background: #fff !important;
     height: calc(100vh - 48px);
-    border-radius: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Mui-selected{
+    color: #212221 !important;
 }
